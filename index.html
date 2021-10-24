@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url("https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-position: center;
+        box-sizing: border-box;
+        }
+        .container{
+            height: 100%;
+            width: 100%;
+            
+        
+        }
+        .content{
+            height:60%;
+            width: 40%;
+            background-color: rgb(103, 166, 218);
+            text-align: center;
+            margin: 4% 2% 2% 30%;
+            box-shadow: 5px 5px 5px 5px;  
+        }
+        #survey{
+            padding-top: 10px;
+        }
+        #text{
+            padding-bottom: 20px;
+        }
+        #btn{
+        margin-bottom: 15px;
+        padding: 5px 25px 5px 25px;
+        border-radius: 5px;
+        }
+        #btn:hover{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="content">
+                <div id="survey"><b><i>REGISTRATION FORM</i></b></div><br>
+                <label>First Name</label>
+                <input type="text" placeholder="First Name">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name"><br><br>
+                <label>Age</label>
+                <input type="number" pattern="[1-9]" placeholder="Age"><br><br>
+                <label>Gender</label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+                <label>Email</label>
+                <input type="text" pattern="[a-zA-Z]" placeholder="Email"><br><br>
+                <label>Phone No  +91</label>
+                <input type="number" placeholder="Phone no"><br><br>
+                <label>Date</label>
+                <input type="datetime" placeholder="date"><br><br>
+                <label>Password</label>
+                <input type="Password" placeholder="Password"><br><br>
+                <label>Country</label>
+                <select>
+                    <option>India</option>
+                    <option>BanglaDesh</option>
+                    <option>USA</option>
+                    <option>Denmark</option>
+                </select><br><br>
+                <label>Education</label>
+                <textarea></textarea><br><br>
+                <label>12th %</label>
+                <input type="number" placeholder="percentage"><br><br>
+                <label>Secondary Education</label>
+                <input type="number"><br><br>
+                <label>Board</label>
+                <select>
+                    <option>CBSE</option>
+                    <option>UP</option>
+                    <option>State</option>
+                </select><br><br>
+                <button id="btn"
+                type="submit">Submit</button><br>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.instagram.com/">Instgram</a>
+                <a href="https://play.google.com/store/apps/details?id=com.twitter.android&hl=en_IN&gl=US">Twitter</a>
+                
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
